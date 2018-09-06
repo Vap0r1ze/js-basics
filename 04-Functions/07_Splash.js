@@ -14,7 +14,7 @@ function obtain (number, ...list) {
 }
 obtain(3, 4, 2.3, 'a', NaN, null) // [3, 2.3, 'a']
 
-// You can also call functions using splashes
+// You can also call functions using spreads
 function threeSum (a, b, c) {
 	return a + b + c
 }
